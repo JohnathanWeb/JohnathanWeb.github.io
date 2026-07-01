@@ -1,0 +1,59 @@
+/* =========================
+   FLEX UTILITIES
+========================= */
+.flex{
+    display:flex;
+}
+
+.items-center{
+    align-items:center;
+}
+
+.justify-between{
+    justify-content:space-between;
+}
+
+.justify-center{
+    justify-content:center;
+}
+
+.flex-1{
+    flex:1;
+}
+
+/* =========================
+   BOTONES BASE
+========================= */
+.btn{
+    padding:0.8rem 2.5rem;
+    font-size:0.95rem;
+    font-weight:600;
+    border:2px solid transparent;
+    cursor:pointer;
+    text-transform:uppercase;
+    transition:all .3s ease;
+}
+
+/* PRIMARY */
+.btn-primary{
+    background:#4DA3FF;
+    color:#fff;
+}
+
+.btn-primary:hover{
+    background:transparent;
+    border-color:#4DA3FF;
+    color:#4DA3FF;
+}
+
+/* SECONDARY */
+.btn-secondary{
+    background:transparent;
+    border:2px solid #4DA3FF;
+    color:#4DA3FF;
+}
+
+.btn-secondary:hover{
+    background:#4DA3FF;
+    color:#fff;
+}
